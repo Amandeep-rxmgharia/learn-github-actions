@@ -1,0 +1,10 @@
+name: my demo workflow
+on: workflow_dispatch
+jobs:
+  my-first-job: 
+     runs-on: ubuntu-latest
+     steps:
+       - name: kuch bhi karo
+         run: touch app.js
+       - name: run ls 
+         run: ls
